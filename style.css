@@ -1,36 +1,73 @@
-div{
-    text-align:center;
-  }
+/*  Main page styles */ 
 
-h1{
-    color: white;
-  }
-
-img{
-border:5px solid black;
+body {
+  background-image: url(zdjecia/tlo2.jpg);
+  background-attachment: fixed;
 }
 
-span{
-    font-size:20px;
-    font-style: italic;
-    color:white;
-  }
+a {
+  text-decoration: none;
+}
 
-a:link, a:visited {
-    background-color:#A4A4A4;
-    color: black;
-    padding: 24px 35px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-  }
+.container{
+  text-align:center;
+}
 
-a:hover, a:active {
-    background-color: #F2F2F2;
-  }
+h1 {
+  font-family: serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
 
-h5{
-    text-align:right;
-    color: grey;
-  }
-  
+img {
+  border:5px solid black;
+  float:left;
+}
+
+#quote {
+  font-size:20px;
+  font-style: italic;
+  font-family: serif;
+  color:white;
+  position: relative;
+  top: -240px;
+}
+
+.inner-wrapper {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+#menu {
+  padding-top: 20px;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  text-align: center;
+}
+
+#menu > ul > li > a:hover {
+  background-color: #F2F2F2;
+}
+
+li > a:link, a:visited {
+  background-color: #A4A4A4;
+  padding: 24px 35px;
+  color: black;
+}
+
+p {
+  color:white;
+  font-size:17px;
+  margin: 2cm 4cm 0.5cm 4cm;
+}
+
+h3 {
+  font-family: serif;
+  font-size: 15px;
+  text-align: right;
+  color: grey;
+  margin-bottom: -10px;
+}
